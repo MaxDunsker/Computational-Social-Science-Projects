@@ -1,9 +1,28 @@
 "Degree Programs & Research Interests of Members" 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1f63c9d4cc42814f2bbf6e48c2f6c2f3eb0cd4fc
 "Max Dunsker, Master of Public Policy, Domestic Urban Inequality"
+
+Ayesha Zafar, Master of Public Policy, International Development, Gender Inquality, Poverty
+
+ 
+
 Mohammed Bello, MPP, Agriculture
+<<<<<<< HEAD
 =======
 "Max Dunsker, Master of Public Policy, Domestic Urban Inequality" 
+=======
+>>>>>>> 1f63c9d4cc42814f2bbf6e48c2f6c2f3eb0cd4fc
 "Lara Pesce Ares, Master of Public Policy, Public Impact Technology, Economic Opportunity"
+
+blah blah blah
+
 creating conflict :)
+<<<<<<< HEAD
 >>>>>>> 587772ae4c32316db01bbecb81a5d55b882184ad
+=======
+
+
+>>>>>>> 1f63c9d4cc42814f2bbf6e48c2f6c2f3eb0cd4fc

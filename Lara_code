@@ -1,0 +1,12 @@
+git clone https://github.com/MaxDunsker/GitHub-Collaboration-Practice.git
+git checkout -b pesce_branch
+ls
+cd Information.txt
+vim Information.txt 
+git add .
+git commit -m"Lara edits"
+git push origin pesce_branch
+
+git checkout main
+git pull origin main
+
