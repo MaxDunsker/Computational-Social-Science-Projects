@@ -1,5 +1,3 @@
-
-
 ">conda activate CSS" 
 ">git clone https://github.com/MaxDunsker/Computational-Social-Science-Projects.git" 
 ">git cd https://github.com/MaxDunsker/Computational-Social-Science-Projects.git" 
@@ -7,4 +5,5 @@
 ">cd Project 1" 
 ">echo Commands.txt" 
 ">git add ." 
+">git commit -m Part 1 of Project 1, MD" 
 ">git push origin main" 
