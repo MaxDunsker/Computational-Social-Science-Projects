@@ -1,0 +1,57 @@
+wifi-10-41-129-83:Computational-Social-Science-Projects mohammedmohammed$ git clone https://github.com/MaxDunsker/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 19, done.
+remote: Counting objects: 100% (19/19), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 19 (delta 2), reused 14 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (19/19), done.
+Resolving deltas: 100% (2/2), done.
+(base) wifi-10-41-129-83:Computational-Social-Science-Projects mohammedmohammed$ git checkout -b bello_branch
+Switched to a new branch 'bello_branch'
+(base) wifi-10-41-129-83:Computational-Social-Science-Projects mohammedmohammed$ cd GitHub-Collaboration-Practice/
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ vim Information.txt 
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git add *
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git command -m "Added Policy Interests"
+git: 'command' is not a git command. See 'git --help'.
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git commit -m "Added Policy Interests"
+[main 7805b93] Added Policy Interests
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git push
+To https://github.com/MaxDunsker/GitHub-Collaboration-Practice.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/MaxDunsker/GitHub-Collaboration-Practice.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git push origin bello_branch
+error: src refspec bello_branch does not match any
+error: failed to push some refs to 'https://github.com/MaxDunsker/GitHub-Collaboration-Practice.git'
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git push bello_branch
+fatal: 'bello_branch' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git branch
+* main
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git checkout bello_branch
+error: pathspec 'bello_branch' did not match any file(s) known to git
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git branch
+* main
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git switch bello_branch
+fatal: invalid reference: bello_branch
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git checkout -b bello_branch
+Switched to a new branch 'bello_branch'
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git add *
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git command -m "Added Policy Interests"
+git: 'command' is not a git command. See 'git --help'.
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git commit -m "Added Policy Interests"
+On branch bello_branch
+nothing to commit, working tree clean
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ git branch
+* bello_branch
+  main
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ touch branch_edits.txt
+(base) wifi-10-41-129-83:GitHub-Collaboration-Practice mohammedmohammed$ vim branch_edits.txt
