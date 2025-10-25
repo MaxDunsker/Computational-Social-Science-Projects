@@ -1,0 +1,14 @@
+
+git clone https://github.com/MaxDunsker/GitHub-Collaboration-Practice.git"
+cd GitHub-Collaboration-Practice
+git checkout -b Ayesha
+vim Information.txt
+git add .
+git commit 
+git push origin Ayesha
+git checkout main 
+git pull origin main
+git merge Ayehsa
+git push origin main
+
+
